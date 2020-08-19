@@ -4,8 +4,10 @@ import './Menu.css';
 
 function Menu() {
     return (
-        <nav>
-            <img class="Logo" src={Logo} alt="Rafaflix Logo" />
+        <nav className="Menu">
+            <a href="/"> 
+                <img className="Logo" src={Logo} alt="Rafaflix Logo" />
+            </a>
         </nav>
     );
 }
